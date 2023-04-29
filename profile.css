@@ -1,0 +1,20 @@
+.profile-page{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.details h1{
+    font-weight: 400;
+    font-size: 45px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    font-size: 24px;
+    border: none;
+    padding: 0.7rem 1rem;
+    width: 12.5rem;
+    margin-top: 1rem;
+}

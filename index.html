@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+<body>
+    <nav>
+        <div>Header</div>
+        <div class="features">
+            <div class="signup">Signup</div>
+            <div class="profile">Profile</div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="signup-page">
+            <h3>Signup</h3>
+            <div class="inputs">
+                <div class="data">
+                    <label>Full Name</label>
+                    <input id="name" type="text">
+                </div>
+                <div class="data">
+                    <label>Email</label>
+                    <input id="email" type="text">
+                </div>
+                <div class="data">
+                    <label>Password</label>
+                    <input id="password" type="password">
+                </div>
+                <div class="data">
+                    <label>Confirm Password</label>
+                    <input id="con-password" type="password">
+                </div>
+            </div>
+            <p class="error-msg"></p>
+            <button id="signup-btn" type="submit">Signup</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <script src="common.js"></script>
+</body>
+</html>
